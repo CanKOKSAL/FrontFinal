@@ -1,0 +1,231 @@
+.bankHeader {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 20%; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 20%;
+  }
+  
+  .logo img {
+    height: 25%;
+    width: 19%;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none; 
+    margin-bottom: 10%;
+  }
+  
+  .dropdown {
+    position: relative; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    gap: 10%;
+    line-height:4.5;
+  }
+  @media screen and (max-width: 768px) {
+    .bankHeader {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    }
+    
+    .menu {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    
+    .logo img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    }
+    
+    ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    li {
+    margin: 10px 0;
+    }
+    
+    .dropdown-content {
+    position: static;
+    display: none;
+    width: 100%;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    flex-direction: row;
+    gap: 20px;
+    line-height: 1.5;
+    justify-content: center;
+    padding: 0;
+    }
+    }
+  // Header biter.
+    // Section1 başlar.
+    .card{
+      right:9%;
+    }
+    .account{
+        width: 75%;
+        height: 80%;
+        position: relative;
+        left: 10%;
+        margin-top: 10%;
+    }
+    .texts{
+        position: absolute;
+        top: 50%;
+        right:52%;
+    }
+    .accountadvantages{
+        margin-top: 5%;
+    }
+    // Section1 biter.
+    //becomeCostumer başlar.
+    .costumerSection{
+        display: flex;
+        margin-left: 15%;
+    }
+    //becomeCostumer biter.
+    //Advantages başlar.
+.body{
+display: flex;
+position: relative;
+}
+
+.writing{
+    position: relative;
+    flex: 10%;
+    margin-top: 2%;
+    left: 2%;
+}
+ //Advantages biter.
+ //Business başlar.
+.business{
+    width: 100%;
+    position: relative;
+    margin-top: 10%;
+
+}
+#About{
+position: absolute;
+top: 410%;
+color: black;
+}
+.aboutPayment{
+    margin-left: 25%;
+}
+.aboutAccount{
+    margin-left: 5%;
+}
+.startingBusiness{
+    top: 390%;
+    position: absolute;
+    margin-left: 8%;
+}
+#businessButton{
+    top: 440%;
+    position: absolute;
+    width: 40%;
+    left: 4%;
+}
+ //Business biter.
+ //bodycart biter.
+ .BodyCart {
+    display: flex;
+  }
+  
+  .card {
+    left: 4%;
+  }
+
+ //bodycart başlar.
+
+
+
+
+  // footer başlar
+footer {
+    background-color: #eee;
+    padding: 20px;
+    top: 10%;
+  }
+  
+  footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }

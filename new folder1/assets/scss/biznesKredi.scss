@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  // Header başlar.
+  
+  .bankHeader {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 20%; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 20%;
+  }
+  
+  .logo img {
+    height: 25%;
+    width: 19%;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none; 
+    margin-bottom: 10%;
+  }
+  
+  .dropdown {
+    position: relative; 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    gap: 10%;
+    line-height:4.5;
+  }
+  @media screen and (max-width: 768px) {
+    .bankHeader {
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    }
+    
+    .menu {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    
+    .logo img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    }
+    
+    ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    li {
+    margin: 10px 0;
+    }
+    
+    .dropdown-content {
+    position: static;
+    display: none;
+    width: 100%;
+    }
+    
+    .dropdown:hover .dropdown-content {
+    flex-direction: row;
+    gap: 20px;
+    line-height: 1.5;
+    justify-content: center;
+    padding: 0;
+    }
+    }
+  // Header biter.
+// section başlar.
+
+.onlineKredit{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 3%;
+}
+
+
+.main1 img{
+    margin-left: 70%;
+    top: 20%;
+    position: absolute;
+    width: 30%;
+}
+.explanation1{
+    position: relative;
+    margin-bottom: 30%;
+    margin-top: 4%;
+}
+
+.oneDay{
+    margin-left: 10%;
+    top: 18%;
+    position: absolute;
+}
+.interest1{
+    margin-left: 30%;
+    top: 18%;
+    position: absolute;
+}
+.money1{
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+}
+.girov1{
+    margin-left: 30%;
+    margin-top: 9.75%;
+    position: absolute;
+}
+.explanationButton1{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.btn-success{
+    position: absolute;
+}
+.btn-light{
+    position: absolute;
+    margin-left: 15%;
+}
+.commercialCredit{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 3%;
+}
+.main2 img{
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+    top: 100%;
+    margin-bottom: 25%;
+}
+.explanation2{
+    position: relative;
+    margin-bottom: 30%;
+    margin-top: 4%;
+}
+.money2{
+    margin-left: 30%;
+    margin-top: 10%;
+    position: absolute;
+}
+.interest2{
+    margin-left: 30%;
+    top: 18%;
+    position: absolute;
+}
+.commission{
+    margin-left: 10%;
+    top: 18%;
+    position: absolute;
+}
+.girov2{
+    margin-left: 10%;
+    margin-top: 9.75%;
+    position: absolute;
+}
+.explanationButton2{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.additionalInformation{
+    margin-top: 5%;
+    font-size: small;
+    color: gray;
+    position: absolute;
+}
+// section biter
+// footer başlar
+footer {
+    background-color: #eee;
+    padding: 20px;
+    top: 10%;
+  }
+  
+  footer h4 {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
